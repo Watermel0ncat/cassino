@@ -1,0 +1,51 @@
+body {
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.casino {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+h1 {
+    color: gold;
+    font-size: 3rem;
+}
+
+#money {
+    font-size: 24px;
+    margin: 20px;
+    color: lime;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background: gold;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: orange;
+}
+
+#output {
+    margin-top: 30px;
+    min-height: 150px;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
